@@ -1,0 +1,96 @@
+{
+ "logreg": {
+  "model__C": 0.006690421166498805
+ },
+ "ridge": {
+  "model__alpha": 5.450293694558255
+ },
+ "linear_svm": {
+  "model__C": 0.566984951147885
+ },
+ "lda": {
+  "model__shrinkage": 0.001
+ },
+ "qda": {
+  "model__reg_param": 0.8
+ },
+ "gaussian_nb": {
+  "model__var_smoothing": 1.0
+ },
+ "knn": {
+  "model__n_neighbors": 301,
+  "model__p": 1,
+  "model__weights": "distance"
+ },
+ "svm_rbf": {
+  "model__C": 21.368329072358772,
+  "model__gamma": 7.068974950624602e-05
+ },
+ "decision_tree": {
+  "model__ccp_alpha": 4.809461967501575e-06,
+  "model__criterion": "gini",
+  "model__max_depth": 3,
+  "model__min_samples_leaf": 93
+ },
+ "random_forest": {
+  "model__max_depth": 16,
+  "model__max_features": 0.5,
+  "model__min_samples_leaf": 15,
+  "model__n_estimators": 306
+ },
+ "extra_trees": {
+  "model__max_depth": 12,
+  "model__max_features": 0.5,
+  "model__min_samples_leaf": 9,
+  "model__n_estimators": 366
+ },
+ "adaboost": {
+  "model__estimator__max_depth": 3,
+  "model__learning_rate": 0.1673808578875213,
+  "model__n_estimators": 781
+ },
+ "gradient_boosting": {
+  "model__learning_rate": 0.04760153910846178,
+  "model__max_depth": 3,
+  "model__max_features": null,
+  "model__min_samples_leaf": 91,
+  "model__n_estimators": 466,
+  "model__subsample": 0.9314950036607718
+ },
+ "hist_gb": {
+  "model__l2_regularization": 0.004936948694960458,
+  "model__learning_rate": 0.021157899890308404,
+  "model__max_features": 0.42756526145164364,
+  "model__max_iter": 487,
+  "model__max_leaf_nodes": 8,
+  "model__min_samples_leaf": 143
+ },
+ "lightgbm": {
+  "model__colsample_bytree": 0.6286197472598067,
+  "model__learning_rate": 0.006552992991573526,
+  "model__min_child_samples": 106,
+  "model__n_estimators": 1424,
+  "model__num_leaves": 12,
+  "model__reg_alpha": 0.6070874110546393,
+  "model__reg_lambda": 2.7129089558470034,
+  "model__subsample": 0.6629794526009424
+ },
+ "xgboost": {
+  "model__colsample_bytree": 0.6856273981493477,
+  "model__gamma": 0.010493314645539311,
+  "model__learning_rate": 0.012145928554953287,
+  "model__max_depth": 6,
+  "model__min_child_weight": 1.3386261584543908,
+  "model__n_estimators": 720,
+  "model__reg_lambda": 3.5416296712651336,
+  "model__subsample": 0.5993578407670862
+ },
+ "catboost": {
+  "model__bagging_temperature": 0.15071754396542947,
+  "model__depth": 5,
+  "model__iterations": 763,
+  "model__l2_leaf_reg": 1.14876138417489,
+  "model__learning_rate": 0.03898458749305194,
+  "model__random_strength": 1.3551287236845648
+ }
+}
