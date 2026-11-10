@@ -3,8 +3,8 @@
 Registro di tutto quello che proviamo, aggiornato man mano. Ogni esperimento indica:
 cosa abbiamo fatto, come lo abbiamo validato, il risultato e la decisione presa.
 
-Dei notebook di submission sono inclusi solo i tre scelti per la classifica finale (28, 34 e 37, copiati anche
-in `final_notebooks/`): le altre submission citate qui non fanno parte della repo.
+Dei notebook di submission sono inclusi i tre scelti per la classifica finale (28, 34 e 37, copiati anche in
+`final_notebooks/`) e due tappe intermedie (07 e 10); le altre submission citate qui non fanno parte della repo.
 
 **Regole di validazione (valgono per tutti gli esperimenti)**
 - Le decisioni si prendono solo con la cross-validation su `train.jsonl` (5-fold stratificata, `shuffle=True`, `random_state=42`).
@@ -195,7 +195,7 @@ Non usato. È coerente con l'EDA: i win rate per specie stanno tra 0,47 e 0,57.
 **Data:** 29/10/2026
 **Notebook:** [`notebooks/04_models.ipynb`](notebooks/04_models.ipynb), eseguito sul PC potente (circa 1,5 ore in tutto)
 **Codice:** `src/models.py`, `src/validation.py`
-**Submission:** `05_submission_main`, `06_submission_prudent`, `07_submission_alternative`
+**Submission:** `05_submission_main`, `06_submission_prudent`, [`07_submission_alternative`](notebooks/07_submission_alternative.ipynb)
 
 ### Obiettivo
 Confrontare tutti i modelli ammessi dalle regole sulle 155 feature dell'exp 02, ottimizzarne gli iperparametri,
@@ -347,7 +347,7 @@ altrimenti le feature si congelano e si passa a notebook finale e report.
 **Data:** 30/10/2026
 **Notebook:** [`notebooks/09_features_v2.ipynb`](notebooks/09_features_v2.ipynb)
 **Codice:** `src/features.py` (`team_matchup_features`; `build_features(..., team_matchup=True)`)
-**Submission:** `10_submission_v2_main`, `11_submission_v2_prudent`, `12_submission_v2_lgbm`
+**Submission:** [`10_submission_v2_main`](notebooks/10_submission_v2_main.ipynb), `11_submission_v2_prudent`, `12_submission_v2_lgbm`
 
 ### Obiettivo
 Dare al modello informazioni sulle squadre **ancora in gioco** al turno 30, non solo sui due Pokémon attivi, per
